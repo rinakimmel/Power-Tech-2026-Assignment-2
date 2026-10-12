@@ -17,7 +17,12 @@ def app_info():
     """Return basic information about the app."""
     return {"app": "power-tech", "version": VERSION}
 
+def farewell(name):
+    """Return a farewell for the given name."""
+    return f"Goodbye, {name}!"
 
 if __name__ == "__main__":
     print(greet("Power Tech"))
     print(app_info())
+
+
